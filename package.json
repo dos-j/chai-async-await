@@ -1,0 +1,36 @@
+{
+  "name": "chai-async-await",
+  "version": "0.0.0",
+  "description": "Add Chai methods/properties which make it easier to work with Async/Await",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha test/ --recursive --compilers js:babel-core/register --require babel-polyfill"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dos-j/chai-async-await.git"
+  },
+  "keywords": [
+    "chai",
+    "async",
+    "await"
+  ],
+  "author": "dos-j",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dos-j/chai-async-await/issues"
+  },
+  "homepage": "https://github.com/dos-j/chai-async-await#readme",
+  "devDependencies": {
+    "babel-cli": "^6.11.4",
+    "babel-plugin-syntax-async-functions": "^6.8.0",
+    "babel-plugin-transform-runtime": "^6.12.0",
+    "babel-polyfill": "^6.9.1",
+    "babel-preset-es2015": "^6.9.0",
+    "mocha": "^2.5.3"
+  },
+  "dependencies": {
+    "chai": "^3.5.0",
+    "check-error": "^1.0.2"
+  }
+}
